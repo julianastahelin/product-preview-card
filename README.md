@@ -14,17 +14,17 @@ Users should be able to:
 ![](./images/page-screenshot.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/julianastahelin/product-preview-card](https://github.com/julianastahelin/product-preview-card)
+- Live Site URL: [https://julianastahelin.github.io/product-preview-card/](https://julianastahelin.github.io/product-preview-card/)
 
 ## My process
 
-## Built with 👩🏽‍💻
+### Built with 👩🏽‍💻
 - HTML 5
 - CSS 3
 - Bootstrap 5.3
 
-## What I learned 💪🏽
+### What I learned 💪🏽
 - HTML Landmark elements
 - Using the HTML Picture tag
 - Using Viewport height (vh)
