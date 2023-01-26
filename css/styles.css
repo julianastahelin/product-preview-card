@@ -1,0 +1,105 @@
+body { 
+    background-color: #F3EAE3;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+/* Elements */
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+}
+p {
+    color: #84848E;
+}
+p, .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+}
+
+/* Classes */
+.card-row {
+    margin: 3% auto;
+    border-radius: 2%;
+    background-color: #FFFFFF;
+    width: 35rem;
+}
+.image-container {
+    padding: 0;
+}
+.perfume-image {
+    width: 100%;
+    border-radius: 2% 0 0 2%;
+}
+.image-mobile {
+    display:none;
+}
+.text-container {
+    padding: 4%;
+    margin: auto;
+}
+.perfume-text {
+    letter-spacing: 0.2rem;
+}
+.title {
+    line-height: 0.9;
+    padding: 0 20% 5% 0;
+}
+.description-text {
+    font-size: 0.87rem;
+    padding: 0 5% 3% 0;
+}
+.price-row {
+    margin: 7% 0;
+}
+.price-col {
+    padding: 0;
+}
+.price {
+    color: #458C6B;
+}
+.crossed-price-col {
+    padding-top: 3%;
+}
+.crossed-price {
+    text-decoration: line-through;
+}
+.btn {
+    background-color: #458C6B;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+}
+.btn:hover {
+    background-color: #1A4031;
+    color: #fff;
+}
+i {
+    padding: 0 2.5%;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-bottom: 2rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width:991px) {
+    .card-row {
+        width: 21.5rem;
+    }
+    .text-container {
+        padding: 5%;
+    }
+    .perfume-image {
+        border-radius: 2% 2% 0 0;
+    }
+    .title {
+        padding: 0 10% 2.5% 0;
+    }
+    .price-col {
+        width: 40%;
+    }
+}
